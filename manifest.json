@@ -1,6 +1,6 @@
 {
    "name": "Mobage Sidebar Blocker",
-   "version": "1.0",
+   "version": "1.1",
    "manifest_version": 2,
    "background": {
        "scripts": ["background.js"]
@@ -8,6 +8,7 @@
    "permissions": [
        "webRequest",
        "webRequestBlocking",
-       "<all_urls>"
+       "*://game.granbluefantasy.jp/*",
+       "*://cdn-connect.mobage.jp/*"
    ]
 }
